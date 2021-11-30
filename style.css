@@ -456,3 +456,53 @@ ul{
         font-size: 180%;
     }
 }
+
+@media screen and (max-width: 320px) {
+
+
+
+ .oval {
+    height: 316px;
+    background: #1E2940;
+    background-size: cover;
+    position: relative;
+    margin-top: -145px;
+    width: 320px; 
+}
+
+    label {
+        box-sizing: border-box;
+        display: inline-block;
+        border: 1px solid white;
+        border-radius: 5px;
+        width: 48px;
+        height: 30px;
+        line-height: 26px;
+        font-weight: bold;
+        text-align: center;
+        user-select: none;
+    }
+    .main-content {
+        background-image: url(background-paper.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-color: #cccccc;
+        /* box-sizing: border-box; */
+        height: 100%;
+        width: 320px;
+        padding-bottom: 54%;
+        margin: 0px;
+    }
+    .canal {
+        width: 310px;
+    }
+    .logo {
+        position: -webkit-sticky;
+        position: sticky;
+        top: 20px;
+        width: 297px;
+        height: 134px;
+        left: 34vw;
+  }
+}
